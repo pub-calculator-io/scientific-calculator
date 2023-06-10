@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Scientific Calculator</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta name="description" content="This scientific calculator is a free tool that solves complex mathematical expressions by supporting several built-in functions.">
+    <link rel="preload" href="./assets/fonts/inter-v12-latin-regular.woff2" as="font" crossorigin type="font/woff2">
+    <link rel="preload" href="./assets/fonts/inter-v12-latin-500.woff2" as="font" crossorigin type="font/woff2">
+    <link rel="preload" href="./assets/fonts/inter-v12-latin-600.woff2" as="font" crossorigin type="font/woff2">
+    <link rel="preload" href="./assets/fonts/inter-v12-latin-800.woff2" as="font" crossorigin type="font/woff2">
+    <script type="text/javascript">
+        window._ = document.getElementById.bind(document);
+        window.$ = document.querySelector.bind(document);
+        window.$$ = document.querySelectorAll.bind(document);
+        window.defaultSystem = "imperial";
+        localStorage.setItem("theme", "light");
+    </script>
+    <link rel="stylesheet" href="./assets/css/main.min.css" />
+    <script src="./assets/js/all-calculators.js" defer></script>
+</head>
+<body style="background-color: transparent !important; min-height: 0 !important">
+
+<div style="width: 100%;">
+    <div style="width:350px;float:left;padding: 15px;">
+        <div class="calculator-settings">
+            <div class="calculator-setting" id="calculator_form">
+                <div class="calculator-content calculator-content--scientific col">
+                	<span>
+                		<input class="calculator-basic__input" id="input_field" value="0" type="text" onkeydown="ScientificCalculator.inputKeydown(event)" style=" margin-bottom: 0;">
+                		<div>&nbsp;
+                			<span class="input-hints__hint input-hints__hint--comma" id="expression_element" style="padding-top:0;margin-top: 0;display: none;"></span>
+                		</div>
+                	</span>
+                	<div class="calculator-basic" onclick="ScientificCalculator.buttonClick(event)">
+                		<div>
+                			<div class="input-wrapper row">
+                				<label class="input col">
+                					<input type="hidden" value="trig" id="type"/>
+                					
+                					<button class="button-switcher button-switcher--active" type="button" onclick="switcher(this, 'type', '')" value="trig" id="type-a">
+                						<span class="button-switcher__text button-switcher__text--active">TRIG</span>
+                					</button>
+                				</label>
+                				<label class="input col">
+                					
+                					<button class="button-switcher" type="button" onclick="switcher(this, 'type', '')" value="alg" id="type-b">
+                						<span class="button-switcher__text">ALG</span>
+                					</button>
+                				</label>
+                
+                				<!-- <label class="input col">
+                					<input type="hidden" value="trig" id="scientific"/>
+                					<button class="button-switcher button-switcher--active" type="button" onclick="switcher(this, 'scientific')" value="trig" id="scientific-a">
+                						<span class="button-switcher__text button-switcher__text--active">TRIG</p>
+                					</button>
+                				</label>
+                				<label class="input col">
+                					<button class="button-switcher" type="button" onclick="switcher(this, 'scientific')" value="alg" id="scientific-b">
+                						<span class="button-switcher__text">ALG</p>
+                					</button>
+                				</label> -->
+                			</div>
+                			<button class="purple" data-persistent-action="rad-deg">Rad</button>
+                		</div>
+                		<div>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="sin">sin</button>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="cos">cos</button>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="tan">tan</button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="^2">x<sup>2</sup></button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="^3">x<sup>3</sup></button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="^">x<sup>y</sup></button>
+                			<button class="purple" data-action="*10^">EE</button>
+                		</div>
+                		<div>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="sinh">sinh</button>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="cosh">cosh</button>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="tanh">tanh</button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="^(1/2)"><sup>2</sup>√x</button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="^(1/3)"><sup>3</sup>√x</button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="x^(1/y"><sup>y</sup>√x</button>
+                			<button class="purple" data-action="rnd">Rand</button>
+                		</div>
+                		<div>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="acos">cos<sup>-1</sup></button>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="asin">sin<sup>-1</sup></button>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="atan">tan<sup>-1</sup></button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="!">x!</button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="10^">10<sup>x</sup></button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="ln">ln</button>
+                			<button class="purple" data-action="e">e</button>
+                		</div>
+                		<div>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="asinh">sinh<sup>-1</sup></button>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="acosh">cosh<sup>-1</sup></button>
+                			<button class="action-dark type related-to-type-trig tab--active" data-action="atanh">tanh<sup>-1</sup></button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="log2">log<sub>2</sub></button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="log(x,y">log<sub>y</sub></button>
+                			<button class="action-dark type related-to-type-alg related-item-hidden" data-action="log10">log<sub>10</sub></button>
+                			<button class="purple" data-action="pi">π</button>
+                		</div>
+                		<div>
+                			<button class="gray-main" data-persistent-action="mrc">MRC</button>
+                			<button class="gray-main" data-action="m+">M+</button>
+                			<button class="gray-main" data-action="m-">M-</button>
+                			<button class="action" data-action="%">%</button>
+                		</div>
+                		<div>
+                			<button class="gray-main" data-action="AC">AC</button>
+                			<button class="gray-main" data-action="(">(</button>
+                			<button class="gray-main" data-action=")">)</button>
+                			<button class="action" data-action="±">±</button>
+                		</div>
+                		<div>
+                			<button >7</button>
+                			<button >8</button>
+                			<button >9</button>
+                			<button class="action text-2xl" data-action="/">÷</button>
+                		</div>
+                		<div>
+                			<button >4</button>
+                			<button >5</button>
+                			<button >6</button>
+                			<button class="action text-2xl" data-action="*">×</button>
+                		</div>
+                		<div>
+                			<button >1</button>
+                			<button >2</button>
+                			<button >3</button>
+                			<button class="action text-2xl" data-action="-">−</button>
+                		</div>
+                		<div>
+                			<button >0</button>
+                			<button >.</button>
+                			<button class="indigo text-2xl" data-action="=">=</button>
+                			<button class="action text-2xl" data-action="+">+</button>
+                		</div>
+                	</div>
+                </div>
+                <script type="text/javascript" src="false"></script>            </div>
+        </div>
+    </div>
+</div>
+
+<script async src="./assets/js/lib/math.min.js"></script>
+<script defer src="./assets/js/functions.js"></script>
+
+</body>
+</html>
