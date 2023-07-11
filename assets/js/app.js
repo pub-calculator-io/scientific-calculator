@@ -117,13 +117,13 @@ window.addEventListener('keydown', (e) => {
 		} else {
 			focusedElement--
 		}
-		listItem[focusedElement].focus()
+		listItem[focusedElement]?.focus()
 		// listItem[focusedElement].scrollIntoView(true)
 	}
 	
 	if(e.key === 'ArrowDown') {
 		let listItem = [...MODAL_SEARCH_LIST_CONTENT.children]
-		listItem[focusedElement].focus()
+		listItem[focusedElement]?.focus()
 		if(focusedElement + 1 > listItem.length - 1) {
 			focusedElement = 0
 		} else {

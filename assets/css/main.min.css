@@ -78,6 +78,17 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+.input-field__input--textarea {
+  resize: none;
+  height: auto;
+  overflow: hidden;
+  max-height: 180px;
+}
+.input-field__input--ratio {
+  --width: 1ch;
+  max-width: calc(50% - 4px);
+  width: var(--width);
+}
 .input-field__text {
   width: 100%;
   overflow: hidden;
@@ -145,6 +156,15 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 1rem;
   padding-bottom: 9px;
   padding-top: 5px;
+}
+.input-field--separator-sky {
+  background: #EEF2FF;
+}
+.input-field--separator-sky::after {
+  border-color: #C3D0FA;
+}
+.input-field--separator-sky path[stroke] {
+  stroke: #4338CA;
 }
 .input-field--error {
   z-index: 1;
@@ -214,6 +234,9 @@ h1, h2, h3, h4, h5, h6, p {
 .input-field--gray {
   background: #F3F4F6;
 }
+.input-field--ratio {
+  gap: 2px;
+}
 .input-field--border-radius-bl-none {
   border-bottom-left-radius: 0 !important;
 }
@@ -244,6 +267,14 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: -1px;
   max-height: 188px;
   gap: 0px;
+}
+.input-field--full {
+  height: 100%;
+  min-height: 75px;
+  text-align: center;
+}
+.input-field--full > .input-field__input--full {
+  text-align: center;
 }
 html[dir=rtl] .input-field__text {
   text-align: right;
@@ -401,6 +432,9 @@ html.dark .input-wrapper--square > .input-field__hint {
 .input-wrapper--stretch {
   align-items: stretch;
 }
+.input-wrapper--separator .input {
+  max-width: calc(50% - 19px);
+}
 .input-wrapper.disabled {
   opacity: 0.3;
   pointer-events: none;
@@ -431,7 +465,7 @@ html.dark .input-wrapper--square > .input-field__hint {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
-.input .disabled {
+.input.disabled, .input .disabled {
   opacity: 0.3;
   pointer-events: none;
 }
@@ -461,6 +495,10 @@ html.dark .input-wrapper--square > .input-field__hint {
   max-width: 52px;
   width: auto;
   min-width: 38px;
+}
+.input--full {
+  height: 100%;
+  min-height: 75px;
 }
 html[dir=rtl] .input:first-child .input-field,
 html[dir=rtl] .input:first-child .button-switcher {
@@ -3963,6 +4001,37 @@ html.dark .result-legend-item__color--green {
   color: #6B7280;
 }
 
+.prime-factorization-calculator {
+  border-collapse: collapse;
+}
+.prime-factorization-calculator td {
+  padding: 8px 12px;
+  border: none !important;
+  background: white;
+  width: 40px !important;
+  height: 38px !important;
+  position: relative;
+  text-align: center;
+  color: #111827;
+}
+.prime-factorization-calculator td::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: -1px;
+  border: 1px solid #D1D5DB;
+}
+html.dark .prime-factorization-calculator td {
+  background: #101E47;
+}
+html.dark .prime-factorization-calculator td::after {
+  border-color: #162B64;
+}
+
 .calculator-settings {
   width: 100%;
 }
@@ -3993,19 +4062,19 @@ html.dark .result-legend-item__color--green {
   align-items: center;
   justify-content: center;
 }
-.calculator-content__geometry path[fill="#F5F3FF"], .calculator-content__geometry circle[fill="#F5F3FF"], .calculator-content__geometry rect[fill="#F5F3FF"] {
+.calculator-content__geometry path[fill="#F5F3FF"], .calculator-content__geometry circle[fill="#F5F3FF"], .calculator-content__geometry rect[fill="#F5F3FF"], .calculator-content__geometry ellipse[fill="#F5F3FF"] {
   fill: #F5F3FF;
 }
-html.dark .calculator-content__geometry path[fill="#F5F3FF"], html.dark .calculator-content__geometry circle[fill="#F5F3FF"], html.dark .calculator-content__geometry rect[fill="#F5F3FF"] {
+html.dark .calculator-content__geometry path[fill="#F5F3FF"], html.dark .calculator-content__geometry circle[fill="#F5F3FF"], html.dark .calculator-content__geometry rect[fill="#F5F3FF"], html.dark .calculator-content__geometry ellipse[fill="#F5F3FF"] {
   fill: #4C4E72;
 }
-.calculator-content__geometry path[fill="#fff"], .calculator-content__geometry circle[fill="#fff"], .calculator-content__geometry rect[fill="#fff"] {
+.calculator-content__geometry path[fill="#fff"], .calculator-content__geometry circle[fill="#fff"], .calculator-content__geometry rect[fill="#fff"], .calculator-content__geometry ellipse[fill="#fff"] {
   fill: #fff;
 }
-html.dark .calculator-content__geometry path[fill="#fff"], html.dark .calculator-content__geometry circle[fill="#fff"], html.dark .calculator-content__geometry rect[fill="#fff"] {
+html.dark .calculator-content__geometry path[fill="#fff"], html.dark .calculator-content__geometry circle[fill="#fff"], html.dark .calculator-content__geometry rect[fill="#fff"], html.dark .calculator-content__geometry ellipse[fill="#fff"] {
   fill: #1F2937;
 }
-html.dark .calculator-content__geometry rect[stroke="#7C3AED"], html.dark .calculator-content__geometry circle[stroke="#7C3AED"], html.dark .calculator-content__geometry path[stroke="#7C3AED"] {
+html.dark .calculator-content__geometry rect[stroke="#7C3AED"], html.dark .calculator-content__geometry circle[stroke="#7C3AED"], html.dark .calculator-content__geometry path[stroke="#7C3AED"], html.dark .calculator-content__geometry ellipse[stroke="#7C3AED"] {
   stroke: #A78BFA;
 }
 html.dark .calculator-content__geometry path[fill="#7C3AED"] {

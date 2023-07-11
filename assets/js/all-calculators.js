@@ -96,6 +96,12 @@ var allCalculators = [
         "image": "/percentage-calculator-online/assets/images/icon-96.png"
     },
     {
+        "title": "Standard Deviation Calculator",
+        "description": "Given a discrete data set, the calculator calculates the mean, variance, and standard deviation of a sample or a population and shows all the intermediate steps of calculations.",
+        "uri": "/standard-deviation-calculator/",
+        "image": "/standard-deviation-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Mean, Median, Mode Calculator",
         "description": "Calculator for mean, median, and mode in statistics. Use this calculator to get the mean, median, mode, range, and the average for any data set.",
         "uri": "/mean-median-mode-calculator/",
@@ -222,6 +228,12 @@ var allCalculators = [
         "image": "/ratio-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Percentage Increase Calculator",
+        "description": "Percentage increase calculator to find an increase from one number to another, calculate growth rate and calculate price increase in percentages.",
+        "uri": "/percentage-increase-calculator/",
+        "image": "/percentage-increase-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Long Division Calculator",
         "description": "Long division calculator performs long division with remainders. Demonstrates solution with steps, and answer as quotient and remainder and as mixed number.",
         "uri": "/long-division-calculator/",
@@ -240,16 +252,40 @@ var allCalculators = [
         "image": "/combinations-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Percentage Change Calculator",
+        "description": "Percentage change calculator to find percentage increase or decrease, calculate the rate of change and calculate price change over a period of time.",
+        "uri": "/percentage-change-calculator/",
+        "image": "/percentage-change-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Scientific Notation Converter",
+        "description": "Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.",
+        "uri": "/scientific-notation-converter/",
+        "image": "/scientific-notation-converter/assets/images/icon-96.png"
+    },
+    {
         "title": "Date Calculator",
         "description": "Free calculator to effortlessly evaluate the difference between dates. Easily add or subtract days from any date, with or without holidays and weekends.",
         "uri": "/date-calculator/",
         "image": "/date-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Speed Calculator",
+        "description": "The speed calculator helps find speed, distance, time using the formulas d&#x3D;st, s&#x3D;d/t, t&#x3D;d/s. Easy to use and intuitive speed calculator.",
+        "uri": "/speed-calculator/",
+        "image": "/speed-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "GCF Calculator",
         "description": "Greatest common factor calculator finds the GCF of a set of numbers and all factors of these numbers. Solutions with steps for finding the GCF are also demonstrated.",
         "uri": "/gcf-calculator/",
         "image": "/gcf-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Payment Calculator",
+        "description": "Define the monthly payment amount or time period to pay off a loan with a set term or fixed payment with our free payment calculator.",
+        "uri": "/payment-calculator/",
+        "image": "/payment-calculator/assets/images/icon-96.png"
     },
     {
         "title": "Fraction to Decimal Calculator",
@@ -312,6 +348,12 @@ var allCalculators = [
         "image": "/factoring-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Sig Fig Calculator",
+        "description": "Significant figures are essential in various situations. Here, we determine the rules of sig figs and how we can apply them in the real world.",
+        "uri": "/sig-fig-calculator/",
+        "image": "/sig-fig-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Mean, Median, Mode, Range Calculator",
         "description": "The Mean, Median, Mode, and Range calculator helps you find these statistics quickly and conveniently. Learn how to use this calculator&#x27;s output by reading this article.",
         "uri": "/mean-median-mode-range-calculator/",
@@ -324,6 +366,24 @@ var allCalculators = [
         "image": "/permutation-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Percentage Difference Calculator",
+        "description": "Percentage difference calculator to find percent difference between two numbers. The calculator is used to compare two positive values.",
+        "uri": "/percentage-difference-calculator/",
+        "image": "/percentage-difference-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Body Type Calculator",
+        "description": "Discover your body shape with our easy and accurate body type calculator. Learn how to flatter your unique proportions with our helpful guide.",
+        "uri": "/body-type-calculator/",
+        "image": "/body-type-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Quartile Calculator",
+        "description": "The quartile calculator helps to find the first(Q1), second(Q2), and third(Q3) quartiles, interquartile range, minimum and maximum values, and range of a data set.",
+        "uri": "/quartile-calculator/",
+        "image": "/quartile-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Tip Calculator",
         "description": "Free tip calculator that helps people know how much to tip when receiving services from various businesses and workers. This tool also calculates how to split a bill and tip between a group of people.",
         "uri": "/tip-calculator/",
@@ -334,6 +394,12 @@ var allCalculators = [
         "description": "Mixed number to improper fraction calculator to convert mixed numbers, consisting of a whole number and a proper fraction, to improper fractions.",
         "uri": "/mixed-fraction-calculator/",
         "image": "/mixed-fraction-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Height Converter",
+        "description": "With the height converter tool, you can easily convert height to cm. Convert between US units and metric units.",
+        "uri": "/height-converter/",
+        "image": "/height-converter/assets/images/icon-96.png"
     },
     {
         "title": "Fraction to percent calculator",
@@ -366,10 +432,34 @@ var allCalculators = [
         "image": "/density-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Mean Calculator",
+        "description": "The mean calculator or the average calculator helps you to get the average value of a data set. It divides the data values sum by the data values count to get the average (mean).",
+        "uri": "/mean-calculator/",
+        "image": "/mean-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Circle Calculator",
+        "description": "Circle calculator finds missing characteristics of a circle. It includes a radius calculator, circumference calculator, diameter calculator, and circle area calculator.",
+        "uri": "/circle-calculator/",
+        "image": "/circle-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Equivalent Fractions Calculator",
         "description": "Equivalent fractions calculator to find equivalent fractions of positive and negative mixed numbers, integers, proper and improper fractions.",
         "uri": "/equivalent-fractions-calculator/",
         "image": "/equivalent-fractions-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Scientific Notation Calculator",
+        "description": "Scientific notation calculator converts numbers to scientific notation, e-notation, engineering notation, and adds, subtracts, multiplies or divides them.",
+        "uri": "/scientific-notation-calculator/",
+        "image": "/scientific-notation-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Adding Fractions Calculator",
+        "description": "Adding fractions calculator to add and subtract proper and improper fractions. The calculator performs operations with up to nine given fractions.",
+        "uri": "/adding-fractions-calculator/",
+        "image": "/adding-fractions-calculator/assets/images/icon-96.png"
     },
     {
         "title": "Decimal to Percent Calculator",
@@ -378,10 +468,58 @@ var allCalculators = [
         "image": "/decimal-to-percent-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Meters to Feet Converter",
+        "description": "Convert meters to feet &amp; inches using a meters to feet calculator. Choose decimal places or fractions of an inch for rounding and calculation.",
+        "uri": "/meters-to-feet-converter/",
+        "image": "/meters-to-feet-converter/assets/images/icon-96.png"
+    },
+    {
+        "title": "Hex Calculator",
+        "description": "Online hex calculator performs hex math operations and conversions. Hex addition, hex subtraction, hex multiplication, hex division became fast &amp; easy",
+        "uri": "/hex-calculator/",
+        "image": "/hex-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Standard Form Calculator",
         "description": "Standard form calculator converts any number to standard form or scientific notation. It accepts number notation, e-notation, and scientific notation.",
         "uri": "/standard-form-calculator/",
         "image": "/standard-form-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Math Equation Solver",
+        "description": "PEMDAS calculator solves mathematical expressions with the order of operations - brackets, exponents, multiplication, division, addition, and subtraction.",
+        "uri": "/math-equation-solver/",
+        "image": "/math-equation-solver/assets/images/icon-96.png"
+    },
+    {
+        "title": "Cube Root Calculator",
+        "description": "Cube root calculator finds the principal (real) cube root of positive and negative numbers and the imaginary cube roots of the given number.",
+        "uri": "/cube-root-calculator/",
+        "image": "/cube-root-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Return on Investment (ROI) Calculator",
+        "description": "Free return on investment (ROI) calculator that helps investors calculate return on investment, investment gain, and annualized ROI rates. ",
+        "uri": "/roi-calculator/",
+        "image": "/roi-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Arithmetic and Geometric Sequence Calculator",
+        "description": "Number sequence calculator to find the nth term of arithmetic, geometric, and Fibonacci sequences. The calculator also finds the sum of the terms of a sequence.",
+        "uri": "/arithmetic-geometric-sequence-calculator/",
+        "image": "/arithmetic-geometric-sequence-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Square Root Calculator",
+        "description": "Square root calculator finds square roots of positive and negative numbers, identifies the principal root, and determines if the number is a perfect square.",
+        "uri": "/square-root-calculator/",
+        "image": "/square-root-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Distance Formula Calculator",
+        "description": "Distance formula calculator finds the distance between two points on a plane based on their coordinates. The calculator uses the Euclidean distance formula.  ",
+        "uri": "/distance-formula-calculator/",
+        "image": "/distance-formula-calculator/assets/images/icon-96.png"
     },
     {
         "title": "Odds Calculator",
@@ -396,10 +534,28 @@ var allCalculators = [
         "image": "/margin-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Ovulation Calculator",
+        "description": "Not sure when you’re ovulating? Use this free ovulation calculator to estimate your most fertile days and know when you are most likely to conceive.",
+        "uri": "/ovulation-calculator/",
+        "image": "/ovulation-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Integer Calculator",
+        "description": "Adding and subtracting integers calculator allows adding and subtracting positive and negative integers and decimals, demonstrating the solution algorithm.",
+        "uri": "/integer-calculator/",
+        "image": "/integer-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Army Body Fat Calculator",
         "description": "The Army Body Fat Calculator provides users with an accurate estimate of their body fat percentage using the standards of the U.S. Army.",
         "uri": "/army-body-fat-calculator/",
         "image": "/army-body-fat-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Car Loan Calculator",
+        "description": "Free car loan calculator uses the formula PMT &#x3D; (R × A) / (1 - (1+R)^-n) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.",
+        "uri": "/car-loan-calculator/",
+        "image": "/car-loan-calculator/assets/images/icon-96.png"
     },
     {
         "title": "Roman Numeral Date Converter",
@@ -408,15 +564,105 @@ var allCalculators = [
         "image": "/roman-numeral-date-converter/assets/images/icon-96.png"
     },
     {
+        "title": "Time to Decimal Calculator",
+        "description": "Time to decimal calculator can convert the time format from hh:mm:ss to decimal hours, minutes, and seconds. Learn to convert hours to decimal form.",
+        "uri": "/time-to-decimal-calculator/",
+        "image": "/time-to-decimal-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Significant Figures Calculator",
+        "description": "The significant figure rounder rounds numbers to the required quantity of significant figures. It works with a standard number format, e-notation, and scientific notation.",
+        "uri": "/significant-figures-calculator/",
+        "image": "/significant-figures-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Pregnancy Weight Gain Calculator",
+        "description": "This pregnancy weight gain calculator gives a recommended weight increase plan every week based on the user’s body weight before pregnancy and the parameters provided by the IOM (the Institute of Medicine).",
+        "uri": "/pregnancy-weight-gain-calculator/",
+        "image": "/pregnancy-weight-gain-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Feet and Inches Calculator",
+        "description": "A feet and inches calculator helps with math problems. Add feet and inches, subtract, multiply, or divide them with ease.",
+        "uri": "/feet-and-inches-calculator/",
+        "image": "/feet-and-inches-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Velocity Calculator",
+        "description": "Free online velocity calculator solves for v, u, a or t using velocity formula. Calculate the final velocity (v) using the equation v &#x3D; u + at.",
+        "uri": "/velocity-calculator/",
+        "image": "/velocity-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Force Calculator",
+        "description": "Easy to use force calculator helps determine the unknown variable in the force equation (F &#x3D; ma). Force &#x3D; mass × acceleration.",
+        "uri": "/force-calculator/",
+        "image": "/force-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Percentile Calculator",
+        "description": "The percentile calculator helps to find percentile values for a data set. Use this percentile calculator to create a table listing each 5th percentile",
+        "uri": "/percentile-calculator/",
+        "image": "/percentile-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Distance Calculator",
+        "description": "These calculators find the distance between two points on a 2D plane, in a 3D space, as well as along the surface of the Earth with Lambert’s formulas.",
+        "uri": "/distance-calculator/",
+        "image": "/distance-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Percent to Fraction Calculator",
+        "description": "The percent to fraction calculator converts the given percentages into fractions. If the percent value exceeds 100, the calculator performs percent to mixed number conversion.",
+        "uri": "/percent-to-fraction-calculator/",
+        "image": "/percent-to-fraction-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Percentage Decrease Calculator",
+        "description": "The percentage decrease calculator finds a percentage decrease from the starting value to the final value and identifies whether the change is an increase or a decrease.",
+        "uri": "/percentage-decrease-calculator/",
+        "image": "/percentage-decrease-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Present Value Calculator",
+        "description": "Unlock the true value of your investments with our easy-to-use present value calculator. Make smarter financial decisions now!",
+        "uri": "/present-value-calculator/",
+        "image": "/present-value-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Proportion Calculator ",
+        "description": "The ratio calculator finds a missing ratio number based on the given proportion. The calculator can also scale ratios, enlarging or shrinking them.",
+        "uri": "/proportion-calculator/",
+        "image": "/proportion-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Quadratic Equation Calculator",
         "description": "Quadratic Equation Calculator is a free tool that provides a detailed solution to quadratic equations by supplying the values of a, b and c.",
         "uri": "/quadratic-equation-calculator/",
         "image": "/quadratic-equation-calculator/assets/images/icon-96.png"
     },
     {
+        "title": "Refinance Calculator",
+        "description": "This free and comprehensive refinance calculator can help you calculate monthly payments, amortization, total purchase price, and more.",
+        "uri": "/refinance-calculator/",
+        "image": "/refinance-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Credit Card Payoff Calculator",
+        "description": "Free online credit card calculator that provides valuable information to users, including how to minimize debt and a credit payment calculator with recommended payment amounts.",
+        "uri": "/credit-card-payoff-calculator/",
+        "image": "/credit-card-payoff-calculator/assets/images/icon-96.png"
+    },
+    {
         "title": "Due Date Calculator",
         "description": "This online due date calculator helps moms-to-be calculate their due date based on their last menstrual period or the date of conception.",
         "uri": "/due-date-calculator/",
         "image": "/due-date-calculator/assets/images/icon-96.png"
+    },
+    {
+        "title": "Home Loan Calculator",
+        "description": "This easy home loan calculator will help you calculate monthly mortgage payments. The mortgage calculator is perfect for both fixed-rate or adjustable-rate home loans.",
+        "uri": "/home-loan-calculator/",
+        "image": "/home-loan-calculator/assets/images/icon-96.png"
     }
 ];

@@ -26,12 +26,20 @@ window.toggleRelatedInputs = function(element, id, action){
 	$$('.' + id).forEach(element => {
 		if(action === "disabled") {
 			element.classList.remove("disabled");
+		} else if (action === "finding") {
+			element.classList.remove("disabled");
+			if(element.querySelector('.input-field__input').value === "finding...") {
+				element.querySelector('.input-field__input').value = ""
+			}
 		} else {
 			element.classList.add("related-item-hidden");
 		}
 	});
 	$$('.related-to-' + id + '-' + value)?.forEach(element => {
 		if(action === "disabled") {
+			element.classList.add("disabled");
+		} else if (action === "finding") {
+			element.querySelector('.input-field__input').value = "finding..."
 			element.classList.add("disabled");
 		} else {
 			element.classList.remove("related-item-hidden");
@@ -146,7 +154,7 @@ window.input = {
 				error = message.toString();
 			}
 			// default message
-			message = `Value ${this.get(inputId).value} of ${inputId} is invalid. ${error}`;
+			message = `Value${Array.isArray(inputId)?'s':` "${this.get(inputId).value}"`} of "${inputId}" ${Array.isArray(inputId)?'are':'is'} invalid.<br/>${error}`;
 		}
 		return this.error(inputId, message, true);
 	},
