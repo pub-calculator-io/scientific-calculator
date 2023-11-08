@@ -1,4 +1,4 @@
-=== Scientific Calculator by Calculator.iO ===
+# Scientific Calculator by Calculator.iO
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
@@ -9,11 +9,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 This scientific calculator is a free tool that solves complex mathematical expressions by supporting several built-in functions.
 
-== Description ==
+## Description
 
 This scientific calculator is a free tool that solves complex mathematical expressions by supporting several built-in functions.
 
-__Shortcode__
+### Shortcode
 
 Use the Scientific Calculator shortcode:
 
@@ -27,20 +27,20 @@ Libraries in use:
 5. https://air-datepicker.com/
 6. https://www.chartjs.org/
 
-== Installation ==
+## Installation
 
 1. Upload the /ci_scientific_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Scientific Calculator](https://www.calculator.io/scientific-calculator/ "Scientific Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+## Usage
 * Add the shortcode `[ci_scientific_calculator]` to your page or post and configure default mortgage parameters.
 * If you are using widgets, just add the Scientific Calculator to the sidebar through the `Appearance -> Widgets -> Scientific Calculator` menu in WordPress.
 * Add the following code: `<?php display_ci_scientific_calculator(); ?>` to your template where you would like the Scientific Calculator to appear.
 
-== Screenshots ==
+## Screenshots
 1. The Scientific Calculator Input Form.
 
-== Changelog ==
+## Changelog
 
-= 1.0.0 =
+### 1.0.0
 * Initial release
