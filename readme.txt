@@ -13,6 +13,8 @@ This scientific calculator is a free tool that solves complex mathematical expre
 
 This scientific calculator is a free tool that solves complex mathematical expressions by supporting several built-in functions.
 
+[Scientific Calculator Homepage](https://www.calculator.io/scientific-calculator/ "Scientific Calculator Homepage")
+
 __Shortcode__
 
 Use the Scientific Calculator shortcode:
