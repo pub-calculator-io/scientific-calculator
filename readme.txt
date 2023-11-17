@@ -1,6 +1,6 @@
 === Scientific Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: scientific calculator, complex mathematical expressions, trigonometric functions, logarithmic calculations, advanced mathematical operations, sine cosine tangent functions, degree and radian modes, constants e and π
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
