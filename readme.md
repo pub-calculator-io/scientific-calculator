@@ -1,4 +1,4 @@
-# Scientific Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Scientific Calculator Widget for WordPress
 
 This scientific calculator is a free tool that solves complex mathematical expressions by supporting several built-in functions.
 
