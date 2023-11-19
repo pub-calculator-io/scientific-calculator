@@ -6,7 +6,7 @@ This scientific calculator is a free tool that solves complex mathematical expre
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/scientific-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /scientific-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Scientific Calculator](https://www.calculator.io/scientific-calculator/ "Scientific Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
