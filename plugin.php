@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Scientific Calculator by www.calculator.io
+Plugin Name: CI Scientific calculator
 Plugin URI: https://www.calculator.io/scientific-calculator/
 Description: This scientific calculator is a free tool that solves complex mathematical expressions by supporting several built-in functions.
 Version: 1.0.0

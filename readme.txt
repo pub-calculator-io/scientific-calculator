@@ -1,4 +1,4 @@
-=== Scientific Calculator by www.calculator.io ===
+=== CI Scientific calculator ===
 Contributors: calculatorio
 Tags: scientific calculator, complex mathematical expressions, trigonometric functions, logarithmic calculations, advanced mathematical operations, sine cosine tangent functions, degree and radian modes, constants e and π
 Requires at least: 5.0
