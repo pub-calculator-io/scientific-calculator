@@ -1,5 +1,5 @@
 'use strict'
-import { Chart, registerables  } from './lib/chartjs/chart.js';
+if (typeof Chart === 'undefined') return;
 
 Chart.register(...registerables);
 Chart.defaults.borderColor = '#000';
