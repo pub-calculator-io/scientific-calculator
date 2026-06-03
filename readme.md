@@ -1,6 +1,6 @@
 # Scientific Calculator Widget for WordPress
 
-This scientific calculator is a free tool that solves complex mathematical expressions by supporting several built-in functions.
+Solve complex math equations easily with our free online Scientific Calculator. Features advanced mathematical functions, trigonometry, logarithms, and more.
 
 ![Scientific Calculator Input Form](/assets/images/screenshot-1.png "Scientific Calculator Input Form")
 
@@ -11,8 +11,8 @@ This scientific calculator is a free tool that solves complex mathematical expre
 3. Activate the [Scientific Calculator](https://www.calculator.io/scientific-calculator/ "Scientific Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_scientific_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_scientific_calculator(); ?>` to your template where you would like the Scientific Calculator to appear.
+* Add the shortcode `[calcio_scientific_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_scientific_calculator(); ?>` to your template where you would like the Scientific Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
